@@ -13,7 +13,7 @@
 
 get_rr <- function(x) {
   
-  y <- x/1000
+  y <- kyu_rr[x,]
   
   return(y)
   
